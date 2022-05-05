@@ -93,6 +93,7 @@ p {
 }
 .accent1 {
   background-color: var(--accent1-color);
+  color:#FFF8EB;
 }
 .accent2{
   background-color: var(--accent2-color);
