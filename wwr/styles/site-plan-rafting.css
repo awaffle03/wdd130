@@ -86,6 +86,7 @@ p {
 }
 .primary {
   background-color: var(--primary-color);
+  color:#FFF8EB;
 }
 .secondary {
   background-color: var(--secondary-color);
