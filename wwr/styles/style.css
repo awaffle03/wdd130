@@ -1,0 +1,98 @@
+<body>
+    <div id="content">
+        <header>
+   
+    body {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    nav a {
+        text-align: center;
+        color: #fcfbfb;
+        text-decoration: none;
+    }    
+    #hero-msg h1{
+        text-align: center;
+    }
+    #hero-msg h4{
+        text-align: center;
+    }
+    .button-box{
+        text-align: center;
+    }
+    main section{
+        text-align: center;
+    }
+        </footer>
+    </div>
+    #background {
+        height: 725px;
+    }
+    body {
+        background-color: #FFF8EB; 
+        color:#02182B
+    }
+    header {
+        background-color:#4E6A52;
+        color:#FFF8EB
+    }
+    nav a:hover {
+        background-color: #FFF8EB;
+        color: #02182B;
+    }
+    nav a{
+        color: #FFF8EB;
+    }
+    .home-title{
+        color: #FFF8EB;
+    }
+    h4{
+        color: #FFF8EB;
+    }
+    .book {
+        background-color: #FFF8EB; 
+        color: #02182B;
+    }
+
+    .join {
+        background-color:#EC7357;
+        color: #FFF8EB;
+    }
+    .book:hover {
+        background-color: #FFF8EB;
+        color: #02182B;
+    }
+    .join:hover {
+        background-color: #FFF8EB; 
+        color: #02182B;
+    }
+    .msg h2{
+        color: #02182B;
+    }
+    .msg p{
+        color: #02182B;
+    }
+
+    #background {
+        background-color:#FFF8EB;
+        color: #02182B;
+    }
+    .msg {
+        background-color: #FFF8EB; 
+        color: #02182B;
+    }
+    footer h3{
+        color: #FFF8EB
+    }
+    footer a{
+        color: #FFF8EB
+    }
+    
+    footer{
+        background-color:#4E6A52;
+        color: #FFF8EB;
+    }
+    .icon {
+        width: 80px;
+    }
+</body>
