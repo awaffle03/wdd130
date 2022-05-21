@@ -1,6 +1,14 @@
-        body {
+ 
+     body {
         max-width: 1600px;
         margin: 0 auto;
+        font-family: "Century Gothic", CenturyGothic, 'Helvetica Neue', sans-serif;
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
+    }
+    h2{
+        margin: 0;
     }
     nav a {
         text-align: center;
@@ -15,12 +23,18 @@
     }
     #hero-img {
         width: 100%;
-        }
+    }
+    #logo_link {
+        padding-top: 5px;
+    }
     .button-box{
         text-align: center;
     }
     main section{
         text-align: center;
+    }
+    main section img {
+        box-sizing: border-box;
     }
     .icon {
         display: block; 
@@ -37,16 +51,21 @@
         background-color:#4E6A52;
         color:#FFF8EB;
         text-align: center;
+       
     }
     nav a:hover {
         background-color: #FFF8EB;
         color: #02182B;
+        padding: 35px;
     }
     nav a{
         color: #FFF8EB;
     }
     .home-title{
         color:#02182B;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 2em;
+         margin-top: 10px;
     }
     h4{
         color: #FFF8EB;
@@ -55,13 +74,20 @@
         background-color: #FFF8EB; 
         color: #02182B;
         text-decoration: none;
+        font-size: 18px;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
     }
 
     .join {
         background-color:#EC7357;
         color: #FFF8EB;
-        padding: 5px;
+        padding: 15px 30px;
         text-decoration: none;
+        font-size: 18px;
+        margin-top: 50px;
+        border-radius: 5px;
     }
     .book:hover {
         background-color: #FFF8EB;
@@ -77,8 +103,12 @@
     }
     .msg p{
         color: #02182B;
+        font-size: .8em;
+        padding-bottom: 15px;
     }
-
+    .card-img {
+        border: 10px solid #02182B;
+    }
     #background {
         background-color:#FFF8EB;
         color: #02182B;
@@ -86,6 +116,8 @@
     .msg {
         background-color: #FFF8EB; 
         color: #02182B;
+        line-height: 1.5em;
+        padding: 35px;
     }
     footer h3{
         color: #FFF8EB;
@@ -94,11 +126,29 @@
         color: #FFF8EB;
         text-decoration: none;
     }
-    
+    footer a:hover {
+        color: #02182B ;
+        
+    }
+    footer .social img{
+        padding-top: 15px;
+    }
     footer{
         background-color:#4E6A52;
         color: #FFF8EB;
+        padding: 25px 50px;
+        margin-top: 200px;
     }
     .icon {
         width: 80px;
+        padding-top: 10px;
+    }
+    .rivers-card{
+        margin: 200px 0;
+    }
+    .camping-card{
+        margin: 200px 0;
+    }
+    .rapids-card{
+        margin: 200px 0;
     }
