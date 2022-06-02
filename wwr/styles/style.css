@@ -1,11 +1,16 @@
  
      body {
-        max-width: 1600px;
-        margin: 0 auto;
         font-family: "Century Gothic", CenturyGothic, 'Helvetica Neue', sans-serif;
         font-size: 22px;
         margin: 0;
         padding: 0;
+    }
+    #content {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Century Gothic", CenturyGothic, 'Helvetica Neue', sans-serif;
     }
     h2{
         margin: 0;
@@ -35,12 +40,10 @@
     }
     main section img {
         box-sizing: border-box;
-    }
-    .icon {
-        display: block; 
-        
-    }
+    }  
     #background {
+        background-color:#FFF8EB;
+        color: #02182B;
         height: 725px;
     }
     body {
@@ -50,16 +53,21 @@
     header {
         background-color:#4E6A52;
         color:#FFF8EB;
-        text-align: center;
        
+    }
+    .logo {
+        width: 80px;
     }
     nav a:hover {
         background-color: #FFF8EB;
         color: #02182B;
         padding: 35px;
     }
-    nav a{
+    nav a {
+        text-align: center;
         color: #FFF8EB;
+        text-decoration: none;
+        padding: 35px;
     }
     .home-title{
         color:#02182B;
