@@ -1,0 +1,15 @@
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;  
+}
+#words {
+    color: darkred;
+    size: 1000px;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
