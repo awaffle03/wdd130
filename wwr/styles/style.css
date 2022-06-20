@@ -92,12 +92,12 @@
         color: #FFF8EB;
     }
     .book {
-        background-color: #FFF8EB; 
-        color: #02182B;
+        background-color: #4E6A52; 
+        color: #FFF8EB;
         text-decoration: none;
         font-size: 18px;
         padding: 15px 30px;
-        margin-top: 50px;
+        margin-top: 100px;
         border-radius: 5px;
     }
 
@@ -129,7 +129,7 @@
     }
     .home-grid{
         display: grid;
-        grid-template-columns: 10(1fr);
+        grid-template-columns: repeat(10, 1fr);
     }
     .card-img {
         border: 10px solid #02182B ;
@@ -205,34 +205,52 @@
         padding-top: 10px;
     }
 
-    info-page{
+    .info{
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-template-rows: 3(300px);
-    }
-    .river-view1{
-        grid-column: 2;
-        grid-row: 1;
+        grid-template-rows: auto;
+        justify-items: center;
+        grid-gap: 20px;
+        font-size: smaller;
     }
     .text1{
-        grid-column: 1;
+        grid-column-start: 1;
+        grid-column-end: 3;
         grid-row: 1;
+        padding: 50px;
+        padding-top: 100px;
     }
-    .river-view2{
-        grid-column: 2;
-        grid-row: 2;
+    .river-view1{
+       grid-column: 3;
+       grid-row: 1;
+        padding: 50px;
+        max-width: 600px;
     }
     .text2{
-        grid-column: 1;
+        grid-column-start: 1;
+        grid-column-end: 3;
         grid-row: 2;
-    }.river-view3{
-        grid-column: 2;
-        grid-row: 3;
+        padding: 50px;
+        padding-top: 100px;
+    }
+    .river-view2{
+        grid-column: 3;
+        grid-row: 2;
+        padding: 50px;
     }
     .text3{
-        grid-column: 1;
+        grid-column-start: 1;
+        grid-column-end: 3;
         grid-row: 3;
+        padding: 50px;
+        padding-top: 100px;
     }
+    .river-view3{
+        grid-column: 3;
+        grid-row: 3;
+        padding: 50px;
+    }
+
 
     @media screen and (max-width: 900px) {
         #hero, .home-grid {
