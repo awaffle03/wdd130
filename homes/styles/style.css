@@ -39,7 +39,7 @@ nav a:hover{
     padding: 30px 50px;
     border-radius: 12px;
 }
-main{
+.home-page-grid{
     display: grid;
     grid-template-columns: 90px 500px 90px 500px 90px; 
     grid-template-rows: 5(auto);
@@ -75,6 +75,14 @@ h2 a{
     grid-row: 4/6;
     text-align: center;
 }
+.life p {
+    padding: 10px;
+    background-color: #1c98f05d;
+}
+.life h2{
+    text-align: center;
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;  
@@ -133,4 +141,5 @@ footer img{
     max-width: 32px;
     max-height: 32px;
 }
+
 
