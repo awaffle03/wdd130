@@ -12,7 +12,6 @@ body{
 }
 #content{
     max-width: 1600px;
-    width: 90%;
 }
 nav a{
     text-decoration: none;
@@ -41,10 +40,8 @@ nav a:hover{
 }
 .home-page-grid{
     display: grid;
-    grid-template-columns: 90px 500px 90px 500px 90px; 
-    grid-template-rows: 5(auto);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
     justify-items: center;
-    
 }
 .banner{
     grid-column: 2/5;
@@ -81,6 +78,12 @@ h2 a{
 }
 .life h2{
     text-align: center;
+}
+.life img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 input[type=text], select, textarea {
